@@ -37,3 +37,6 @@ if(dayOfWeek == 5)
            {
                  document.write("Have a nice weekend!");
            }
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}  
